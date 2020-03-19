@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "group": "orange_dye",
+    
+    "ingredients":
+    [
+        {
+            "item": "minecraft:flower_pot"
+        },
+        
+        {
+            "item": "minecraft:orange_dye"
+        }
+    ],
+    
+    "result":
+    {
+        "item": "coloredflowerpotsmod:orange_flower_pot"
+    }
+}

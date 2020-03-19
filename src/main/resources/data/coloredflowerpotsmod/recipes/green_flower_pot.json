@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "group": "green_dye",
+    
+    "ingredients":
+    [
+        {
+            "item": "minecraft:flower_pot"
+        },
+        
+        {
+            "item": "minecraft:green_dye"
+        }
+    ],
+    
+    "result":
+    {
+        "item": "coloredflowerpotsmod:green_flower_pot"
+    }
+}

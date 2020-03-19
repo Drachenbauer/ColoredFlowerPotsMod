@@ -1,0 +1,9 @@
+{
+    "parent": "block/potted_brown_mushroom",
+    
+    "textures":
+    {
+        "particle": "block/red_concrete",
+        "flowerpot": "block/red_concrete"
+    }
+}

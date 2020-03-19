@@ -1,0 +1,9 @@
+{
+    "parent": "block/potted_blue_orchid",
+    
+    "textures":
+    {
+        "particle": "block/red_concrete",
+        "flowerpot": "block/red_concrete"
+    }
+}

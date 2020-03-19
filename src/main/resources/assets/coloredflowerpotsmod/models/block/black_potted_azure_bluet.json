@@ -1,0 +1,9 @@
+{
+    "parent": "block/potted_azure_bluet",
+    
+    "textures":
+    {
+        "particle": "block/black_concrete",
+        "flowerpot": "block/black_concrete"
+    }
+}

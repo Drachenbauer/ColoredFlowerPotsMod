@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "group": "brown_dye",
+    
+    "ingredients":
+    [
+        {
+            "item": "minecraft:flower_pot"
+        },
+        
+        {
+            "item": "minecraft:brown_dye"
+        }
+    ],
+    
+    "result":
+    {
+        "item": "coloredflowerpotsmod:brown_flower_pot"
+    }
+}

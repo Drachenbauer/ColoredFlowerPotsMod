@@ -1,0 +1,9 @@
+{
+    "parent": "block/potted_dead_bush",
+    
+    "textures":
+    {
+        "particle": "block/lime_concrete",
+        "flowerpot": "block/lime_concrete"
+    }
+}

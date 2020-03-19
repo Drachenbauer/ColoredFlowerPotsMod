@@ -1,0 +1,9 @@
+{
+    "parent": "block/potted_cornflower",
+    
+    "textures":
+    {
+        "particle": "block/cyan_concrete",
+        "flowerpot": "block/cyan_concrete"
+    }
+}

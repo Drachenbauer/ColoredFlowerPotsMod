@@ -1,0 +1,9 @@
+{
+    "parent": "block/potted_oak_sapling",
+    
+    "textures":
+    {
+        "particle": "block/light_gray_concrete",
+        "flowerpot": "block/light_gray_concrete"
+    }
+}

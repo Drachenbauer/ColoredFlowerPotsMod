@@ -1,0 +1,23 @@
+
+{
+    //ItemGroup name
+    "itemGroup.ColoredFlowerPots": "Colored Flowerpots",
+    
+    //Block names
+    "block.coloredflowerpotsmod.black_flower_pot": "Black Flowerpot",
+    "block.coloredflowerpotsmod.blue_flower_pot": "Blue Flowerpot",
+    "block.coloredflowerpotsmod.brown_flower_pot": "Brown Flowerpot",
+    "block.coloredflowerpotsmod.cyan_flower_pot": "Cyan Flowerpot",
+    "block.coloredflowerpotsmod.gray_flower_pot": "Gray Flowerpot",
+    "block.coloredflowerpotsmod.green_flower_pot": "Green Flowerpot",
+    "block.coloredflowerpotsmod.light_blue_flower_pot": "Light Blue Flowerpot",
+    "block.coloredflowerpotsmod.light_gray_flower_pot": "Light Gray Flowerpot",
+    "block.coloredflowerpotsmod.lime_flower_pot": "Lime Flowerpot",
+    "block.coloredflowerpotsmod.magenta_flower_pot": "Magenta Flowerpot",
+    "block.coloredflowerpotsmod.orange_flower_pot": "Orange Flowerpot",
+    "block.coloredflowerpotsmod.pink_flower_pot": "Pink Flowerpot",
+    "block.coloredflowerpotsmod.purple_flower_pot": "Purple Flowerpot",
+    "block.coloredflowerpotsmod.red_flower_pot": "Red Flowerpot",
+    "block.coloredflowerpotsmod.white_flower_pot": "White Flowerpot",
+    "block.coloredflowerpotsmod.yellow_flower_pot": "Yellow Flowerpot"
+}

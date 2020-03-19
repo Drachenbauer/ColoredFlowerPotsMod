@@ -1,0 +1,9 @@
+{
+    "parent": "block/potted_fern",
+    
+    "textures":
+    {
+        "particle": "block/brown_concrete",
+        "flowerpot": "block/brown_concrete"
+    }
+}

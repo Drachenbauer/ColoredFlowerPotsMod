@@ -1,0 +1,22 @@
+{
+    //ItemGroup name
+    "itemGroup.ColoredFlowerPots": "Bunte Blumentöpfe",
+    
+    //Block names
+    "block.coloredflowerpotsmod.black_flower_pot": "Schwarzer Blumentopf",
+    "block.coloredflowerpotsmod.blue_flower_pot": "Blauer Blumentopf",
+    "block.coloredflowerpotsmod.brown_flower_pot": "Brauner Blumentopf",
+    "block.coloredflowerpotsmod.cyan_flower_pot": "Türkiser Blumentopf",
+    "block.coloredflowerpotsmod.gray_flower_pot": "Grauer Blumentopf",
+    "block.coloredflowerpotsmod.green_flower_pot": "Grüner Blumentopf",
+    "block.coloredflowerpotsmod.light_blue_flower_pot": "Hellblauer Blumentopf",
+    "block.coloredflowerpotsmod.light_gray_flower_pot": "Hellgrauer Blumentopf",
+    "block.coloredflowerpotsmod.lime_flower_pot": "Helgrüner Blumentopf",
+    "block.coloredflowerpotsmod.magenta_flower_pot": "Magenta Blumentopf",
+    "block.coloredflowerpotsmod.orange_flower_pot": "Oranger Blumentopf",
+    "block.coloredflowerpotsmod.pink_flower_pot": "Rosa Blumentopf",
+    "block.coloredflowerpotsmod.purple_flower_pot": "Violetter Blumentopf",
+    "block.coloredflowerpotsmod.red_flower_pot": "Roter Blumentopf",
+    "block.coloredflowerpotsmod.white_flower_pot": "Weißer Blumentopf",
+    "block.coloredflowerpotsmod.yellow_flower_pot": "Gelber Blumentopf"
+}

@@ -1,0 +1,9 @@
+{
+    "parent": "block/potted_oxeye_daisy",
+    
+    "textures":
+    {
+        "particle": "block/blue_concrete",
+        "flowerpot": "block/blue_concrete"
+    }
+}

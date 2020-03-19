@@ -1,0 +1,9 @@
+{
+    "parent": "block/potted_birch_sapling",
+    
+    "textures":
+    {
+        "particle": "block/pink_concrete",
+        "flowerpot": "block/pink_concrete"
+    }
+}

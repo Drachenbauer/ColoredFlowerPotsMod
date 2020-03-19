@@ -1,0 +1,9 @@
+{
+    "parent": "block/potted_cactus",
+    
+    "textures":
+    {
+        "particle": "block/magenta_concrete",
+        "flowerpot": "block/magenta_concrete"
+    }
+}

@@ -1,0 +1,9 @@
+{
+    "parent": "block/flower_pot",
+    
+    "textures":
+    {
+        "particle": "block/gray_concrete",
+        "flowerpot": "block/gray_concrete"
+    }
+}

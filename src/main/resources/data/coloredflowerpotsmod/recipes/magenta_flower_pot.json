@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "group": "magenta_dye",
+    
+    "ingredients":
+    [
+        {
+            "item": "minecraft:flower_pot"
+        },
+        
+        {
+            "item": "minecraft:magenta_dye"
+        }
+    ],
+    
+    "result":
+    {
+        "item": "coloredflowerpotsmod:magenta_flower_pot"
+    }
+}

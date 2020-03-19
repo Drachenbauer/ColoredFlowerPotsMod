@@ -1,0 +1,9 @@
+{
+    "parent": "block/potted_lily_of_the_valley",
+    
+    "textures":
+    {
+        "particle": "block/white_concrete",
+        "flowerpot": "block/white_concrete"
+    }
+}

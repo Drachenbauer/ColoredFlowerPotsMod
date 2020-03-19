@@ -1,0 +1,9 @@
+{
+    "parent": "block/potted_red_tulip",
+    
+    "textures":
+    {
+        "particle": "block/yellow_concrete",
+        "flowerpot": "block/yellow_concrete"
+    }
+}

@@ -1,0 +1,9 @@
+{
+    "parent": "block/potted_acacia_sapling",
+    
+    "textures":
+    {
+        "particle": "block/white_concrete",
+        "flowerpot": "block/white_concrete"
+    }
+}
