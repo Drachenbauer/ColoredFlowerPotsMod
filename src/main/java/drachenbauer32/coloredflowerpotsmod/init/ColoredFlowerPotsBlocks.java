@@ -94,7 +94,7 @@ public class ColoredFlowerPotsBlocks
                         BLACK_FLOWER_POT, RED_TULIP_SUPPLIER, Block.Properties.create(Material.MISCELLANEOUS).hardnessAndResistance(0f).notSolid()));
     public static final RegistryObject<FlowerPotBlock> BLACK_POTTED_SPRUCE_SAPLING = BLOCKS.register("black_potted_spruce_sapling", () -> new FlowerPotBlock(
                         BLACK_FLOWER_POT, SPRUCE_SAPLING_SUPPLIER, Block.Properties.create(Material.MISCELLANEOUS).hardnessAndResistance(0f).notSolid()));
-    public static final RegistryObject<FlowerPotBlock> BLACK_POTTED_WHITE_TULIP = BLOCKS.register("black_potted_black_tulip", () -> new FlowerPotBlock(
+    public static final RegistryObject<FlowerPotBlock> BLACK_POTTED_WHITE_TULIP = BLOCKS.register("black_potted_white_tulip", () -> new FlowerPotBlock(
                         BLACK_FLOWER_POT, WHITE_TULIP_SUPPLIER, Block.Properties.create(Material.MISCELLANEOUS).hardnessAndResistance(0f).notSolid()));
     public static final RegistryObject<FlowerPotBlock> BLACK_POTTED_WITHER_ROSE = BLOCKS.register("black_potted_wither_rose", () -> new FlowerPotBlock(
                         BLACK_FLOWER_POT, WITHER_ROSE_SUPPLIER, Block.Properties.create(Material.MISCELLANEOUS).hardnessAndResistance(0f).notSolid()));
@@ -147,7 +147,7 @@ public class ColoredFlowerPotsBlocks
                         BLUE_FLOWER_POT, RED_TULIP_SUPPLIER, Block.Properties.create(Material.MISCELLANEOUS).hardnessAndResistance(0f).notSolid()));
     public static final RegistryObject<FlowerPotBlock> BLUE_POTTED_SPRUCE_SAPLING = BLOCKS.register("blue_potted_spruce_sapling", () -> new FlowerPotBlock(
                         BLUE_FLOWER_POT, SPRUCE_SAPLING_SUPPLIER, Block.Properties.create(Material.MISCELLANEOUS).hardnessAndResistance(0f).notSolid()));
-    public static final RegistryObject<FlowerPotBlock> BLUE_POTTED_WHITE_TULIP = BLOCKS.register("blue_potted_blue_tulip", () -> new FlowerPotBlock(
+    public static final RegistryObject<FlowerPotBlock> BLUE_POTTED_WHITE_TULIP = BLOCKS.register("blue_potted_white_tulip", () -> new FlowerPotBlock(
                         BLUE_FLOWER_POT, WHITE_TULIP_SUPPLIER, Block.Properties.create(Material.MISCELLANEOUS).hardnessAndResistance(0f).notSolid()));
     public static final RegistryObject<FlowerPotBlock> BLUE_POTTED_WITHER_ROSE = BLOCKS.register("blue_potted_wither_rose", () -> new FlowerPotBlock(
                         BLUE_FLOWER_POT, WITHER_ROSE_SUPPLIER, Block.Properties.create(Material.MISCELLANEOUS).hardnessAndResistance(0f).notSolid()));
@@ -200,7 +200,7 @@ public class ColoredFlowerPotsBlocks
                         BROWN_FLOWER_POT, RED_TULIP_SUPPLIER, Block.Properties.create(Material.MISCELLANEOUS).hardnessAndResistance(0f).notSolid()));
     public static final RegistryObject<FlowerPotBlock> BROWN_POTTED_SPRUCE_SAPLING = BLOCKS.register("brown_potted_spruce_sapling", () -> new FlowerPotBlock(
                         BROWN_FLOWER_POT, SPRUCE_SAPLING_SUPPLIER, Block.Properties.create(Material.MISCELLANEOUS).hardnessAndResistance(0f).notSolid()));
-    public static final RegistryObject<FlowerPotBlock> BROWN_POTTED_WHITE_TULIP = BLOCKS.register("brown_potted_brown_tulip", () -> new FlowerPotBlock(
+    public static final RegistryObject<FlowerPotBlock> BROWN_POTTED_WHITE_TULIP = BLOCKS.register("brown_potted_white_tulip", () -> new FlowerPotBlock(
                         BROWN_FLOWER_POT, WHITE_TULIP_SUPPLIER, Block.Properties.create(Material.MISCELLANEOUS).hardnessAndResistance(0f).notSolid()));
     public static final RegistryObject<FlowerPotBlock> BROWN_POTTED_WITHER_ROSE = BLOCKS.register("brown_potted_wither_rose", () -> new FlowerPotBlock(
                         BROWN_FLOWER_POT, WITHER_ROSE_SUPPLIER, Block.Properties.create(Material.MISCELLANEOUS).hardnessAndResistance(0f).notSolid()));
@@ -253,7 +253,7 @@ public class ColoredFlowerPotsBlocks
                         CYAN_FLOWER_POT, RED_TULIP_SUPPLIER, Block.Properties.create(Material.MISCELLANEOUS).hardnessAndResistance(0f).notSolid()));
     public static final RegistryObject<FlowerPotBlock> CYAN_POTTED_SPRUCE_SAPLING = BLOCKS.register("cyan_potted_spruce_sapling", () -> new FlowerPotBlock(
                         CYAN_FLOWER_POT, SPRUCE_SAPLING_SUPPLIER, Block.Properties.create(Material.MISCELLANEOUS).hardnessAndResistance(0f).notSolid()));
-    public static final RegistryObject<FlowerPotBlock> CYAN_POTTED_WHITE_TULIP = BLOCKS.register("cyan_potted_cyan_tulip", () -> new FlowerPotBlock(
+    public static final RegistryObject<FlowerPotBlock> CYAN_POTTED_WHITE_TULIP = BLOCKS.register("cyan_potted_white_tulip", () -> new FlowerPotBlock(
                         CYAN_FLOWER_POT, WHITE_TULIP_SUPPLIER, Block.Properties.create(Material.MISCELLANEOUS).hardnessAndResistance(0f).notSolid()));
     public static final RegistryObject<FlowerPotBlock> CYAN_POTTED_WITHER_ROSE = BLOCKS.register("cyan_potted_wither_rose", () -> new FlowerPotBlock(
                         CYAN_FLOWER_POT, WITHER_ROSE_SUPPLIER, Block.Properties.create(Material.MISCELLANEOUS).hardnessAndResistance(0f).notSolid()));
@@ -306,7 +306,7 @@ public class ColoredFlowerPotsBlocks
                         GRAY_FLOWER_POT, RED_TULIP_SUPPLIER, Block.Properties.create(Material.MISCELLANEOUS).hardnessAndResistance(0f).notSolid()));
     public static final RegistryObject<FlowerPotBlock> GRAY_POTTED_SPRUCE_SAPLING = BLOCKS.register("gray_potted_spruce_sapling", () -> new FlowerPotBlock(
                         GRAY_FLOWER_POT, SPRUCE_SAPLING_SUPPLIER, Block.Properties.create(Material.MISCELLANEOUS).hardnessAndResistance(0f).notSolid()));
-    public static final RegistryObject<FlowerPotBlock> GRAY_POTTED_WHITE_TULIP = BLOCKS.register("gray_potted_gray_tulip", () -> new FlowerPotBlock(
+    public static final RegistryObject<FlowerPotBlock> GRAY_POTTED_WHITE_TULIP = BLOCKS.register("gray_potted_white_tulip", () -> new FlowerPotBlock(
                         GRAY_FLOWER_POT, WHITE_TULIP_SUPPLIER, Block.Properties.create(Material.MISCELLANEOUS).hardnessAndResistance(0f).notSolid()));
     public static final RegistryObject<FlowerPotBlock> GRAY_POTTED_WITHER_ROSE = BLOCKS.register("gray_potted_wither_rose", () -> new FlowerPotBlock(
                         GRAY_FLOWER_POT, WITHER_ROSE_SUPPLIER, Block.Properties.create(Material.MISCELLANEOUS).hardnessAndResistance(0f).notSolid()));
@@ -359,7 +359,7 @@ public class ColoredFlowerPotsBlocks
                         GREEN_FLOWER_POT, RED_TULIP_SUPPLIER, Block.Properties.create(Material.MISCELLANEOUS).hardnessAndResistance(0f).notSolid()));
     public static final RegistryObject<FlowerPotBlock> GREEN_POTTED_SPRUCE_SAPLING = BLOCKS.register("green_potted_spruce_sapling", () -> new FlowerPotBlock(
                         GREEN_FLOWER_POT, SPRUCE_SAPLING_SUPPLIER, Block.Properties.create(Material.MISCELLANEOUS).hardnessAndResistance(0f).notSolid()));
-    public static final RegistryObject<FlowerPotBlock> GREEN_POTTED_WHITE_TULIP = BLOCKS.register("green_potted_green_tulip", () -> new FlowerPotBlock(
+    public static final RegistryObject<FlowerPotBlock> GREEN_POTTED_WHITE_TULIP = BLOCKS.register("green_potted_white_tulip", () -> new FlowerPotBlock(
                         GREEN_FLOWER_POT, WHITE_TULIP_SUPPLIER, Block.Properties.create(Material.MISCELLANEOUS).hardnessAndResistance(0f).notSolid()));
     public static final RegistryObject<FlowerPotBlock> GREEN_POTTED_WITHER_ROSE = BLOCKS.register("green_potted_wither_rose", () -> new FlowerPotBlock(
                         GREEN_FLOWER_POT, WITHER_ROSE_SUPPLIER, Block.Properties.create(Material.MISCELLANEOUS).hardnessAndResistance(0f).notSolid()));
@@ -412,7 +412,7 @@ public class ColoredFlowerPotsBlocks
                         LIGHT_BLUE_FLOWER_POT, RED_TULIP_SUPPLIER, Block.Properties.create(Material.MISCELLANEOUS).hardnessAndResistance(0f).notSolid()));
     public static final RegistryObject<FlowerPotBlock> LIGHT_BLUE_POTTED_SPRUCE_SAPLING = BLOCKS.register("light_blue_potted_spruce_sapling", () -> new FlowerPotBlock(
                         LIGHT_BLUE_FLOWER_POT, SPRUCE_SAPLING_SUPPLIER, Block.Properties.create(Material.MISCELLANEOUS).hardnessAndResistance(0f).notSolid()));
-    public static final RegistryObject<FlowerPotBlock> LIGHT_BLUE_POTTED_WHITE_TULIP = BLOCKS.register("light_blue_potted_light_blue_tulip", () -> new FlowerPotBlock(
+    public static final RegistryObject<FlowerPotBlock> LIGHT_BLUE_POTTED_WHITE_TULIP = BLOCKS.register("light_blue_potted_white_tulip", () -> new FlowerPotBlock(
                         LIGHT_BLUE_FLOWER_POT, WHITE_TULIP_SUPPLIER, Block.Properties.create(Material.MISCELLANEOUS).hardnessAndResistance(0f).notSolid()));
     public static final RegistryObject<FlowerPotBlock> LIGHT_BLUE_POTTED_WITHER_ROSE = BLOCKS.register("light_blue_potted_wither_rose", () -> new FlowerPotBlock(
                         LIGHT_BLUE_FLOWER_POT, WITHER_ROSE_SUPPLIER, Block.Properties.create(Material.MISCELLANEOUS).hardnessAndResistance(0f).notSolid()));
@@ -465,7 +465,7 @@ public class ColoredFlowerPotsBlocks
                         LIGHT_GRAY_FLOWER_POT, RED_TULIP_SUPPLIER, Block.Properties.create(Material.MISCELLANEOUS).hardnessAndResistance(0f).notSolid()));
     public static final RegistryObject<FlowerPotBlock> LIGHT_GRAY_POTTED_SPRUCE_SAPLING = BLOCKS.register("light_gray_potted_spruce_sapling", () -> new FlowerPotBlock(
                         LIGHT_GRAY_FLOWER_POT, SPRUCE_SAPLING_SUPPLIER, Block.Properties.create(Material.MISCELLANEOUS).hardnessAndResistance(0f).notSolid()));
-    public static final RegistryObject<FlowerPotBlock> LIGHT_GRAY_POTTED_WHITE_TULIP = BLOCKS.register("light_gray_potted_light_gray_tulip", () -> new FlowerPotBlock(
+    public static final RegistryObject<FlowerPotBlock> LIGHT_GRAY_POTTED_WHITE_TULIP = BLOCKS.register("light_gray_potted_white_tulip", () -> new FlowerPotBlock(
                         LIGHT_GRAY_FLOWER_POT, WHITE_TULIP_SUPPLIER, Block.Properties.create(Material.MISCELLANEOUS).hardnessAndResistance(0f).notSolid()));
     public static final RegistryObject<FlowerPotBlock> LIGHT_GRAY_POTTED_WITHER_ROSE = BLOCKS.register("light_gray_potted_wither_rose", () -> new FlowerPotBlock(
                         LIGHT_GRAY_FLOWER_POT, WITHER_ROSE_SUPPLIER, Block.Properties.create(Material.MISCELLANEOUS).hardnessAndResistance(0f).notSolid()));
@@ -518,7 +518,7 @@ public class ColoredFlowerPotsBlocks
                         LIME_FLOWER_POT, RED_TULIP_SUPPLIER, Block.Properties.create(Material.MISCELLANEOUS).hardnessAndResistance(0f).notSolid()));
     public static final RegistryObject<FlowerPotBlock> LIME_POTTED_SPRUCE_SAPLING = BLOCKS.register("lime_potted_spruce_sapling", () -> new FlowerPotBlock(
                         LIME_FLOWER_POT, SPRUCE_SAPLING_SUPPLIER, Block.Properties.create(Material.MISCELLANEOUS).hardnessAndResistance(0f).notSolid()));
-    public static final RegistryObject<FlowerPotBlock> LIME_POTTED_WHITE_TULIP = BLOCKS.register("lime_potted_lime_tulip", () -> new FlowerPotBlock(
+    public static final RegistryObject<FlowerPotBlock> LIME_POTTED_WHITE_TULIP = BLOCKS.register("lime_potted_white_tulip", () -> new FlowerPotBlock(
                         LIME_FLOWER_POT, WHITE_TULIP_SUPPLIER, Block.Properties.create(Material.MISCELLANEOUS).hardnessAndResistance(0f).notSolid()));
     public static final RegistryObject<FlowerPotBlock> LIME_POTTED_WITHER_ROSE = BLOCKS.register("lime_potted_wither_rose", () -> new FlowerPotBlock(
                         LIME_FLOWER_POT, WITHER_ROSE_SUPPLIER, Block.Properties.create(Material.MISCELLANEOUS).hardnessAndResistance(0f).notSolid()));
@@ -571,7 +571,7 @@ public class ColoredFlowerPotsBlocks
                         MAGENTA_FLOWER_POT, RED_TULIP_SUPPLIER, Block.Properties.create(Material.MISCELLANEOUS).hardnessAndResistance(0f).notSolid()));
     public static final RegistryObject<FlowerPotBlock> MAGENTA_POTTED_SPRUCE_SAPLING = BLOCKS.register("magenta_potted_spruce_sapling", () -> new FlowerPotBlock(
                         MAGENTA_FLOWER_POT, SPRUCE_SAPLING_SUPPLIER, Block.Properties.create(Material.MISCELLANEOUS).hardnessAndResistance(0f).notSolid()));
-    public static final RegistryObject<FlowerPotBlock> MAGENTA_POTTED_WHITE_TULIP = BLOCKS.register("magenta_potted_magenta_tulip", () -> new FlowerPotBlock(
+    public static final RegistryObject<FlowerPotBlock> MAGENTA_POTTED_WHITE_TULIP = BLOCKS.register("magenta_potted_white_tulip", () -> new FlowerPotBlock(
                         MAGENTA_FLOWER_POT, WHITE_TULIP_SUPPLIER, Block.Properties.create(Material.MISCELLANEOUS).hardnessAndResistance(0f).notSolid()));
     public static final RegistryObject<FlowerPotBlock> MAGENTA_POTTED_WITHER_ROSE = BLOCKS.register("magenta_potted_wither_rose", () -> new FlowerPotBlock(
                         MAGENTA_FLOWER_POT, WITHER_ROSE_SUPPLIER, Block.Properties.create(Material.MISCELLANEOUS).hardnessAndResistance(0f).notSolid()));
@@ -624,7 +624,7 @@ public class ColoredFlowerPotsBlocks
                         ORANGE_FLOWER_POT, RED_TULIP_SUPPLIER, Block.Properties.create(Material.MISCELLANEOUS).hardnessAndResistance(0f).notSolid()));
     public static final RegistryObject<FlowerPotBlock> ORANGE_POTTED_SPRUCE_SAPLING = BLOCKS.register("orange_potted_spruce_sapling", () -> new FlowerPotBlock(
                         ORANGE_FLOWER_POT, SPRUCE_SAPLING_SUPPLIER, Block.Properties.create(Material.MISCELLANEOUS).hardnessAndResistance(0f).notSolid()));
-    public static final RegistryObject<FlowerPotBlock> ORANGE_POTTED_WHITE_TULIP = BLOCKS.register("orange_potted_orange_tulip", () -> new FlowerPotBlock(
+    public static final RegistryObject<FlowerPotBlock> ORANGE_POTTED_WHITE_TULIP = BLOCKS.register("orange_potted_white_tulip", () -> new FlowerPotBlock(
                         ORANGE_FLOWER_POT, WHITE_TULIP_SUPPLIER, Block.Properties.create(Material.MISCELLANEOUS).hardnessAndResistance(0f).notSolid()));
     public static final RegistryObject<FlowerPotBlock> ORANGE_POTTED_WITHER_ROSE = BLOCKS.register("orange_potted_wither_rose", () -> new FlowerPotBlock(
                         ORANGE_FLOWER_POT, WITHER_ROSE_SUPPLIER, Block.Properties.create(Material.MISCELLANEOUS).hardnessAndResistance(0f).notSolid()));
@@ -677,7 +677,7 @@ public class ColoredFlowerPotsBlocks
                         PINK_FLOWER_POT, RED_TULIP_SUPPLIER, Block.Properties.create(Material.MISCELLANEOUS).hardnessAndResistance(0f).notSolid()));
     public static final RegistryObject<FlowerPotBlock> PINK_POTTED_SPRUCE_SAPLING = BLOCKS.register("pink_potted_spruce_sapling", () -> new FlowerPotBlock(
                         PINK_FLOWER_POT, SPRUCE_SAPLING_SUPPLIER, Block.Properties.create(Material.MISCELLANEOUS).hardnessAndResistance(0f).notSolid()));
-    public static final RegistryObject<FlowerPotBlock> PINK_POTTED_WHITE_TULIP = BLOCKS.register("pink_potted_pink_tulip", () -> new FlowerPotBlock(
+    public static final RegistryObject<FlowerPotBlock> PINK_POTTED_WHITE_TULIP = BLOCKS.register("pink_potted_white_tulip", () -> new FlowerPotBlock(
                         PINK_FLOWER_POT, WHITE_TULIP_SUPPLIER, Block.Properties.create(Material.MISCELLANEOUS).hardnessAndResistance(0f).notSolid()));
     public static final RegistryObject<FlowerPotBlock> PINK_POTTED_WITHER_ROSE = BLOCKS.register("pink_potted_wither_rose", () -> new FlowerPotBlock(
                         PINK_FLOWER_POT, WITHER_ROSE_SUPPLIER, Block.Properties.create(Material.MISCELLANEOUS).hardnessAndResistance(0f).notSolid()));
@@ -730,7 +730,7 @@ public class ColoredFlowerPotsBlocks
                         PURPLE_FLOWER_POT, RED_TULIP_SUPPLIER, Block.Properties.create(Material.MISCELLANEOUS).hardnessAndResistance(0f).notSolid()));
     public static final RegistryObject<FlowerPotBlock> PURPLE_POTTED_SPRUCE_SAPLING = BLOCKS.register("purple_potted_spruce_sapling", () -> new FlowerPotBlock(
                         PURPLE_FLOWER_POT, SPRUCE_SAPLING_SUPPLIER, Block.Properties.create(Material.MISCELLANEOUS).hardnessAndResistance(0f).notSolid()));
-    public static final RegistryObject<FlowerPotBlock> PURPLE_POTTED_WHITE_TULIP = BLOCKS.register("purple_potted_purple_tulip", () -> new FlowerPotBlock(
+    public static final RegistryObject<FlowerPotBlock> PURPLE_POTTED_WHITE_TULIP = BLOCKS.register("purple_potted_white_tulip", () -> new FlowerPotBlock(
                         PURPLE_FLOWER_POT, WHITE_TULIP_SUPPLIER, Block.Properties.create(Material.MISCELLANEOUS).hardnessAndResistance(0f).notSolid()));
     public static final RegistryObject<FlowerPotBlock> PURPLE_POTTED_WITHER_ROSE = BLOCKS.register("purple_potted_wither_rose", () -> new FlowerPotBlock(
                         PURPLE_FLOWER_POT, WITHER_ROSE_SUPPLIER, Block.Properties.create(Material.MISCELLANEOUS).hardnessAndResistance(0f).notSolid()));
@@ -783,7 +783,7 @@ public class ColoredFlowerPotsBlocks
                         RED_FLOWER_POT, RED_TULIP_SUPPLIER, Block.Properties.create(Material.MISCELLANEOUS).hardnessAndResistance(0f).notSolid()));
     public static final RegistryObject<FlowerPotBlock> RED_POTTED_SPRUCE_SAPLING = BLOCKS.register("red_potted_spruce_sapling", () -> new FlowerPotBlock(
                         RED_FLOWER_POT, SPRUCE_SAPLING_SUPPLIER, Block.Properties.create(Material.MISCELLANEOUS).hardnessAndResistance(0f).notSolid()));
-    public static final RegistryObject<FlowerPotBlock> RED_POTTED_WHITE_TULIP = BLOCKS.register("red_potted_red_tulip", () -> new FlowerPotBlock(
+    public static final RegistryObject<FlowerPotBlock> RED_POTTED_WHITE_TULIP = BLOCKS.register("red_potted_white_tulip", () -> new FlowerPotBlock(
                         RED_FLOWER_POT, WHITE_TULIP_SUPPLIER, Block.Properties.create(Material.MISCELLANEOUS).hardnessAndResistance(0f).notSolid()));
     public static final RegistryObject<FlowerPotBlock> RED_POTTED_WITHER_ROSE = BLOCKS.register("red_potted_wither_rose", () -> new FlowerPotBlock(
                         RED_FLOWER_POT, WITHER_ROSE_SUPPLIER, Block.Properties.create(Material.MISCELLANEOUS).hardnessAndResistance(0f).notSolid()));
@@ -889,7 +889,7 @@ public class ColoredFlowerPotsBlocks
                         YELLOW_FLOWER_POT, RED_TULIP_SUPPLIER, Block.Properties.create(Material.MISCELLANEOUS).hardnessAndResistance(0f).notSolid()));
     public static final RegistryObject<FlowerPotBlock> YELLOW_POTTED_SPRUCE_SAPLING = BLOCKS.register("yellow_potted_spruce_sapling", () -> new FlowerPotBlock(
                         YELLOW_FLOWER_POT, SPRUCE_SAPLING_SUPPLIER, Block.Properties.create(Material.MISCELLANEOUS).hardnessAndResistance(0f).notSolid()));
-    public static final RegistryObject<FlowerPotBlock> YELLOW_POTTED_WHITE_TULIP = BLOCKS.register("yellow_potted_yellow_tulip", () -> new FlowerPotBlock(
+    public static final RegistryObject<FlowerPotBlock> YELLOW_POTTED_WHITE_TULIP = BLOCKS.register("yellow_potted_white_tulip", () -> new FlowerPotBlock(
                         YELLOW_FLOWER_POT, WHITE_TULIP_SUPPLIER, Block.Properties.create(Material.MISCELLANEOUS).hardnessAndResistance(0f).notSolid()));
     public static final RegistryObject<FlowerPotBlock> YELLOW_POTTED_WITHER_ROSE = BLOCKS.register("yellow_potted_wither_rose", () -> new FlowerPotBlock(
                         YELLOW_FLOWER_POT, WITHER_ROSE_SUPPLIER, Block.Properties.create(Material.MISCELLANEOUS).hardnessAndResistance(0f).notSolid()));*/
