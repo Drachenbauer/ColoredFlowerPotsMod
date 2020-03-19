@@ -48,8 +48,6 @@ public class ColoredFlowerPotsItems
     
     public static final DeferredRegister<Item> ITEMS = new DeferredRegister<>(ForgeRegistries.ITEMS, Reference.MOD_ID);
     
-    //public static final ArrayList<RegistryObject<BlockItem>> EMPTY_FLOWER_POT_REGISTRIES = new ArrayList<RegistryObject<BlockItem>>();
-    
     @SuppressWarnings("unchecked")
     public static final RegistryObject<BlockItem>[] EMPTY_FLOWER_POTS = new RegistryObject[ColoredFlowerPotsBlocks.COLORS.size() + 1];
     
