@@ -971,4 +971,9 @@ public class ColoredFlowerPotsBlocks
             i++;
         }
     }
+    
+    public static RegistryObject<FlowerPotBlock> getEmptyPot(int i)
+    {
+        return EMPTY_FLOWER_POTS[i];
+    }
 }
