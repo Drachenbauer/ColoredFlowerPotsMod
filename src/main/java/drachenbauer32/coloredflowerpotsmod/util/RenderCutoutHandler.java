@@ -12,7 +12,7 @@ public class RenderCutoutHandler
     {
         for (RegistryObject<FlowerPotBlock> flower_pot : ColoredFlowerPotsBlocks.FULL_FLOWER_POTS)
         {
-            if(! flower_pot.get().getRegistryName().getPath().contains("cactus"))
+            if(! flower_pot.getId().getPath().contains("cactus"))
             {
                 RenderTypeLookup.setRenderLayer(flower_pot.get(), RenderType.getCutout());
             }
