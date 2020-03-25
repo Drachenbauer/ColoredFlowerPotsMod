@@ -85,11 +85,19 @@ public class ColoredFlowerPotsBlocks
                 {
                     j++;
                 }
+                else
+                {
+                    j = 0;
+                }
             }
             
             if (i < COLORS.length - 1)
             {
                 i++;
+            }
+            else
+            {
+                i = 0;
             }
         }
     }
