@@ -98,10 +98,10 @@ public class ColoredFlowerPotsItems
             {
                 i++;
             }
-            else
+            /*else
             {
                 i = 0;
-            }
+            }*/
         }
     }
 }
