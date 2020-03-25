@@ -1,7 +1,6 @@
 package drachenbauer32.coloredflowerpotsmod;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.Comparator;
 import java.util.List;
 import com.google.common.collect.Ordering;
@@ -43,22 +42,22 @@ public class ColoredFlowerPots
     
     private void setup(final FMLCommonSetupEvent event)
     {
-        /*ArrayList<String> colors = new ArrayList<String>(Arrays.asList("red",
-                                                                       "orange",
-                                                                       "yellow",
-                                                                       "lime",
-                                                                       "cyan",
-                                                                       "blue",
-                                                                       "purple",
-                                                                       "magenta",
-                                                                       "pink",
-                                                                       "light_blue",
-                                                                       "green",
-                                                                       "brown",
-                                                                       "black",
-                                                                       "gray",
-                                                                       "light_gray",
-                                                                       "white"));
+        String[] colors = {"red",
+                           "orange",
+                           "yellow",
+                           "lime",
+                           "cyan",
+                           "blue",
+                           "purple",
+                           "magenta",
+                           "pink",
+                           "light_blue",
+                           "green",
+                           "brown",
+                           "black",
+                           "gray",
+                           "light_gray",
+                           "white"};
         
         List<Item> items = new ArrayList<Item>();
         
@@ -66,14 +65,14 @@ public class ColoredFlowerPots
         {
             for (RegistryObject<BlockItem> flower_pot : ColoredFlowerPotsItems.EMPTY_FLOWER_POTS)
             {
-                 if (flower_pot.getId().toString().contains(color))
+                if (flower_pot.getId().getPath().startsWith(color))
                 {
                     items.add(flower_pot.get());
                 }
             }
-        }*/
+        }
         
-        List<Item> items = Arrays.asList(ColoredFlowerPotsItems.RED_FLOWER_POT.get(),
+        /*List<Item> items = Arrays.asList(ColoredFlowerPotsItems.RED_FLOWER_POT.get(),
                                          ColoredFlowerPotsItems.ORANGE_FLOWER_POT.get(),
                                          ColoredFlowerPotsItems.YELLOW_FLOWER_POT.get(),
                                          ColoredFlowerPotsItems.LIME_FLOWER_POT.get(),
@@ -88,15 +87,15 @@ public class ColoredFlowerPots
                                          ColoredFlowerPotsItems.BLACK_FLOWER_POT.get(),
                                          ColoredFlowerPotsItems.GRAY_FLOWER_POT.get(),
                                          ColoredFlowerPotsItems.LIGHT_GRAY_FLOWER_POT.get(),
-                                         ColoredFlowerPotsItems.WHITE_FLOWER_POT.get());
+                                         ColoredFlowerPotsItems.WHITE_FLOWER_POT.get());*/
         
         itemSorter = Ordering.explicit(items).onResultOf(ItemStack::getItem);
         
-        /*DeferredWorkQueue.runLater(() ->
+        DeferredWorkQueue.runLater(() ->
         {
             PlantsForPotsHandler.addPlantsToPots();
         }
-        );*/
+        );
     }
     
     private void clientRegistries(final FMLClientSetupEvent event)

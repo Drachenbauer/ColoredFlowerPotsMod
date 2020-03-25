@@ -20,9 +20,9 @@ public class ColoredFlowerPotsItemGroup extends ItemGroup
     @Override
     public ItemStack createIcon()
     {
-        return new ItemStack(ColoredFlowerPotsItems.YELLOW_FLOWER_POT.get());
+        //return new ItemStack(ColoredFlowerPotsItems.YELLOW_FLOWER_POT.get());
         
-        /*Item icon = Items.FLOWER_POT;
+        Item icon = Items.FLOWER_POT;
         for (RegistryObject<BlockItem> flower_pot : ColoredFlowerPotsItems.EMPTY_FLOWER_POTS)
         {
             if (flower_pot.getId().getPath().contains("yellow"))
@@ -31,7 +31,7 @@ public class ColoredFlowerPotsItemGroup extends ItemGroup
                 break;
             }
         }
-        return new ItemStack(icon);*/
+        return new ItemStack(icon);
     }
     
     @Override
