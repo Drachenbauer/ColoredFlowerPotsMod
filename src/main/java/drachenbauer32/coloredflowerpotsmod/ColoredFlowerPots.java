@@ -1,6 +1,7 @@
 package drachenbauer32.coloredflowerpotsmod;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Comparator;
 import java.util.List;
 import com.google.common.collect.Ordering;

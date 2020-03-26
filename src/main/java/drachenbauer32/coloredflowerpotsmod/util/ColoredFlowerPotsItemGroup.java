@@ -25,7 +25,7 @@ public class ColoredFlowerPotsItemGroup extends ItemGroup
         Item icon = Items.FLOWER_POT;
         for (RegistryObject<BlockItem> flower_pot : ColoredFlowerPotsItems.EMPTY_FLOWER_POTS)
         {
-            if (flower_pot.getId().getPath().contains("yellow"))
+            if (flower_pot.getId().getPath().startsWith("yellow"))
             {
                 icon = flower_pot.get();
                 break;

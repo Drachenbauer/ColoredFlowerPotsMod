@@ -17,15 +17,15 @@ public class PlantsForPotsHandler
         {
             for (RegistryObject<FlowerPotBlock> empty_pot : ColoredFlowerPotsBlocks.EMPTY_FLOWER_POTS)
             {
-                if (empty_pot.getId().getPath().contains(color))
+                if (empty_pot.getId().getPath().startsWith(color))
                 {
                     for (RegistryObject<FlowerPotBlock> full_pot : ColoredFlowerPotsBlocks.FULL_FLOWER_POTS)
                     {
-                        if(full_pot.getId().getPath().contains(color))
+                        if(full_pot.getId().getPath().startsWith(color))
                         {
                             for (Supplier<Block> plant : ColoredFlowerPotsBlocks.PLANT_SUPPLIERS)
                             {
-                                if(full_pot.getId().getPath().contains(plant.get().getRegistryName().getPath()))
+                                if(full_pot.getId().getPath().endsWith(plant.get().getRegistryName().getPath()))
                                 { 
                                      empty_pot.get().addPlant(plant.get().getRegistryName(), full_pot);
                                 }
