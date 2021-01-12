@@ -1,7 +1,7 @@
 
 {
     //ItemGroup name
-    "itemGroup.ColoredFlowerPots": "Colored Flowerpots",
+    "itemGroup.coloredflowerpots": "Colored Flowerpots",
     
     //Block names
     "block.coloredflowerpotsmod.black_flower_pot": "Black Flowerpot",

@@ -1,6 +1,6 @@
 {
     //ItemGroup name
-    "itemGroup.ColoredFlowerPots": "Bunte Blumentöpfe",
+    "itemGroup.coloredflowerpots": "Bunte Blumentöpfe",
     
     //Block names
     "block.coloredflowerpotsmod.black_flower_pot": "Schwarzer Blumentopf",

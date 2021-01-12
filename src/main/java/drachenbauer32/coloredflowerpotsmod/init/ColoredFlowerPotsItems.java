@@ -11,7 +11,7 @@ import net.minecraftforge.registries.ForgeRegistries;
 
 public class ColoredFlowerPotsItems
 {
-    /*public static final DeferredRegister<Item> ITEMS = new DeferredRegister<>(ForgeRegistries.ITEMS, Reference.MOD_ID);
+    public static final DeferredRegister<Item> ITEMS = new DeferredRegister<>(ForgeRegistries.ITEMS, Reference.MOD_ID);
     
     public static final RegistryObject<BlockItem> BLACK_FLOWER_POT = ITEMS.register("black_flower_pot", () -> new BlockItem(ColoredFlowerPotsBlocks.EMPTY_FLOWER_POTS[0].get(),
                         new Item.Properties().defaultMaxDamage(0).group(ColoredFlowerPots.COLORED_FLOWERPOTS).maxStackSize(64).rarity(Rarity.COMMON).setNoRepair()));
@@ -44,9 +44,9 @@ public class ColoredFlowerPotsItems
     public static final RegistryObject<BlockItem> WHITE_FLOWER_POT = ITEMS.register("white_flower_pot", () -> new BlockItem(ColoredFlowerPotsBlocks.EMPTY_FLOWER_POTS[14].get(),
                         new Item.Properties().defaultMaxDamage(0).group(ColoredFlowerPots.COLORED_FLOWERPOTS).maxStackSize(64).rarity(Rarity.COMMON).setNoRepair()));
     public static final RegistryObject<BlockItem> YELLOW_FLOWER_POT = ITEMS.register("yellow_flower_pot", () -> new BlockItem(ColoredFlowerPotsBlocks.EMPTY_FLOWER_POTS[15].get(),
-                        new Item.Properties().defaultMaxDamage(0).group(ColoredFlowerPots.COLORED_FLOWERPOTS).maxStackSize(64).rarity(Rarity.COMMON).setNoRepair()));*/
+                        new Item.Properties().defaultMaxDamage(0).group(ColoredFlowerPots.COLORED_FLOWERPOTS).maxStackSize(64).rarity(Rarity.COMMON).setNoRepair()));
     
-    public static final DeferredRegister<Item> ITEMS = new DeferredRegister<>(ForgeRegistries.ITEMS, Reference.MOD_ID);
+    /*public static final DeferredRegister<Item> ITEMS = new DeferredRegister<>(ForgeRegistries.ITEMS, Reference.MOD_ID);
     
     @SuppressWarnings("unchecked")
     public static final RegistryObject<BlockItem>[] EMPTY_FLOWER_POTS = new RegistryObject[ColoredFlowerPotsBlocks.COLORS.length];
@@ -70,5 +70,5 @@ public class ColoredFlowerPotsItems
                 i = 0;
             }
         }
-    }
+    }*/
 }

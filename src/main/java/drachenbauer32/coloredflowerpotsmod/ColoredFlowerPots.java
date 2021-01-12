@@ -36,6 +36,7 @@ public class ColoredFlowerPots
     {
         FMLJavaModLoadingContext.get().getModEventBus().addListener(this::setup);
         FMLJavaModLoadingContext.get().getModEventBus().addListener(this::clientRegistries);
+        
         ColoredFlowerPotsItems.ITEMS.register(FMLJavaModLoadingContext.get().getModEventBus());
         ColoredFlowerPotsBlocks.BLOCKS.register(FMLJavaModLoadingContext.get().getModEventBus());
         MinecraftForge.EVENT_BUS.register(this);
@@ -43,7 +44,7 @@ public class ColoredFlowerPots
     
     private void setup(final FMLCommonSetupEvent event)
     {
-        String[] colors = {"red",
+        /*String[] colors = {"red",
                            "orange",
                            "yellow",
                            "lime",
@@ -71,9 +72,9 @@ public class ColoredFlowerPots
                     items.add(flower_pot.get());
                 }
             }
-        }
+        }*/
         
-        /*List<Item> items = Arrays.asList(ColoredFlowerPotsItems.RED_FLOWER_POT.get(),
+        List<Item> items = Arrays.asList(ColoredFlowerPotsItems.RED_FLOWER_POT.get(),
                                          ColoredFlowerPotsItems.ORANGE_FLOWER_POT.get(),
                                          ColoredFlowerPotsItems.YELLOW_FLOWER_POT.get(),
                                          ColoredFlowerPotsItems.LIME_FLOWER_POT.get(),
@@ -88,7 +89,7 @@ public class ColoredFlowerPots
                                          ColoredFlowerPotsItems.BLACK_FLOWER_POT.get(),
                                          ColoredFlowerPotsItems.GRAY_FLOWER_POT.get(),
                                          ColoredFlowerPotsItems.LIGHT_GRAY_FLOWER_POT.get(),
-                                         ColoredFlowerPotsItems.WHITE_FLOWER_POT.get());*/
+                                         ColoredFlowerPotsItems.WHITE_FLOWER_POT.get());
         
         itemSorter = Ordering.explicit(items).onResultOf(ItemStack::getItem);
         

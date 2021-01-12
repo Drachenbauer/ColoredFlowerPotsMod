@@ -6,7 +6,6 @@ import java.util.function.Supplier;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
 import net.minecraft.block.FlowerPotBlock;
-import net.minecraft.block.material.Material;
 import net.minecraftforge.fml.RegistryObject;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -72,14 +71,14 @@ public class ColoredFlowerPotsBlocks
     {
         for(String color : COLORS)
         {
-            EMPTY_FLOWER_POTS[i] = BLOCKS.register(color + "_flower_pot", () -> new FlowerPotBlock(null, AIR_SUPPLIER,
-                                   Block.Properties.create(Material.MISCELLANEOUS).hardnessAndResistance(0f).notSolid()));
+            EMPTY_FLOWER_POTS[i] = BLOCKS.register(color + "_flower_pot", () ->
+            new FlowerPotBlock(null, AIR_SUPPLIER, Block.Properties.from(Blocks.FLOWER_POT)));
             
             for(Supplier<Block> plant_supplier : PLANT_SUPPLIERS)
             {
                 String plant = plant_supplier.get().getRegistryName().getPath();
-                FULL_FLOWER_POTS[j] = BLOCKS.register(color + "_potted_" + plant, () -> new FlowerPotBlock(EMPTY_FLOWER_POTS[i], plant_supplier,
-                                      Block.Properties.create(Material.MISCELLANEOUS).hardnessAndResistance(0f).notSolid()));
+                FULL_FLOWER_POTS[j] = BLOCKS.register(color + "_potted_" + plant, () ->
+                new FlowerPotBlock(EMPTY_FLOWER_POTS[i], plant_supplier, Block.Properties.from(Blocks.FLOWER_POT)));
                 
                 if (j < COLORS.length * PLANT_SUPPLIERS.length - 1)
                 {

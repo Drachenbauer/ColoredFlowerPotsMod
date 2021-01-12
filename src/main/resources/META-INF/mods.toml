@@ -9,7 +9,9 @@ version="1.0" #mandatory
 displayName="Colored Flowerpots Mod" #mandatory
 # The description text for the mod (multi line!) (#mandatory)
 description='''
-adds flowerpots in the 16 concrete-colors. All plants can be placed in the new colorful pots.
+adds flowerpots in the 16 concrete-colors.
+All plants can be placed in the new colorful pots.
+Bees now accept all potted variants of the flowers, wich they normally accept.
 '''
 
 [[dependencies.coloredflowerpots]] #optional
