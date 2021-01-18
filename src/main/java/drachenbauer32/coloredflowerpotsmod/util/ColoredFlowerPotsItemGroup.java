@@ -16,7 +16,7 @@ public class ColoredFlowerPotsItemGroup extends ItemGroup
     @Override
     public ItemStack createIcon()
     {
-        return new ItemStack(ColoredFlowerPotsItems.YELLOW_FLOWER_POT.get());
+        return new ItemStack(ColoredFlowerPotsItems.EMPTY_FLOWER_POTS.get(FlowerPotColors.YELLOW).get());
         
         /*Item icon = Items.FLOWER_POT;
         for (RegistryObject<BlockItem> flower_pot : ColoredFlowerPotsItems.EMPTY_FLOWER_POTS)
