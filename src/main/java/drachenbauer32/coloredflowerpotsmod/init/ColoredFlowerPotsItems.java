@@ -16,28 +16,16 @@ import net.minecraftforge.registries.ForgeRegistries;
 
 public class ColoredFlowerPotsItems
 {
-    public static final DeferredRegister<Item> ITEMS = new DeferredRegister<>(ForgeRegistries.ITEMS, Reference.MOD_ID);
+    public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, Reference.MOD_ID);
     
     public static final Map<FlowerPotColors, RegistryObject<Item>> EMPTY_FLOWER_POTS = Collections.synchronizedMap(new HashMap<FlowerPotColors, RegistryObject<Item>>());
-    
-    private static int i = 0;
     
     static
     {
         for (FlowerPotColors color : FlowerPotColors.values())
         {
-            
             EMPTY_FLOWER_POTS.put(color, ITEMS.register(color.getName() + "_flower_pot", () -> new ColoredFlowerPotBlockItem(color, ColoredFlowerPotsBlocks.EMPTY_FLOWER_POTS.get(color).get(),
                                   new Item.Properties().defaultMaxDamage(0).group(ColoredFlowerPots.COLORED_FLOWERPOTS).maxStackSize(64).rarity(Rarity.COMMON).setNoRepair())));
-            
-            if (i < FlowerPotColors.values().length - 1)
-            {
-                i++;
-            }
-            else
-            {
-                i = 0;
-            }
         }
     }
 }

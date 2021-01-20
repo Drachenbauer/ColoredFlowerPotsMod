@@ -17,47 +17,26 @@ import net.minecraftforge.registries.ForgeRegistries;
 
 public class ColoredFlowerPotsBlocks
 {
-    public static final DeferredRegister<Block> BLOCKS = new DeferredRegister<>(ForgeRegistries.BLOCKS, Reference.MOD_ID);
+    public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, Reference.MOD_ID);
     
     private static final Supplier<Block> AIR_SUPPLIER = () -> Blocks.AIR;
     
     public static final Map<FlowerPotColors, RegistryObject<FlowerPotBlock>> EMPTY_FLOWER_POTS = Collections.synchronizedMap(new HashMap<FlowerPotColors, RegistryObject<FlowerPotBlock>>());
     public static final Map<FlowerPotColors, Map<Plants, RegistryObject<FlowerPotBlock>>> FULL_FLOWER_POTS = Collections.synchronizedMap(new HashMap<FlowerPotColors, Map<Plants, RegistryObject<FlowerPotBlock>>>());
     
-    private static int i = 0;
-    private static int j = 0;
-    
     static
     {
         for(FlowerPotColors color : FlowerPotColors.values())
         {
             EMPTY_FLOWER_POTS.put(color, BLOCKS.register(color.getName() + "_flower_pot", () ->
-            new FlowerPotBlock(null, AIR_SUPPLIER, Block.Properties.from(Blocks.FLOWER_POT))));
+                                  new FlowerPotBlock(null, AIR_SUPPLIER, Block.Properties.from(Blocks.FLOWER_POT))));
             
             FULL_FLOWER_POTS.put(color, Collections.synchronizedMap(new HashMap<Plants, RegistryObject<FlowerPotBlock>>()));
             
             for(Plants plant : Plants.values())
             {
                 FULL_FLOWER_POTS.get(color).put(plant, BLOCKS.register(color.getName() + "_potted_" + plant.getName(), () ->
-                new FlowerPotBlock(EMPTY_FLOWER_POTS.get(color), plant.getPlant(), Block.Properties.from(Blocks.FLOWER_POT))));
-                
-                if (j < FlowerPotColors.values().length * Plants.values().length -1)
-                {
-                    j++;
-                }
-                else
-                {
-                    j = 0;
-                }
-            }
-            
-            if (i < FlowerPotColors.values().length - 1)
-            {
-                i++;
-            }
-            else
-            {
-                i = 0;
+                                                new FlowerPotBlock(EMPTY_FLOWER_POTS.get(color), plant.getPlant(), Block.Properties.from(Blocks.FLOWER_POT))));
             }
         }
     }
